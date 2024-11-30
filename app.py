@@ -158,7 +158,7 @@ while True:
         try:
             text = r.recognize_google(audio)
             dest = text
-            print(" {}".format(text))
+            print(" {}".format(text)
         except:
             print("Sorry could not recognize what you said")
     print("The source and the destination are : " + source + " " + dest)
