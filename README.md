@@ -55,31 +55,19 @@ To use voice input, run the script and speak the source and destination clearly 
 Example CSV File (cities.csv)
 Here is an example format for the cities.csv file:
 
-Copy
-Edit
 Source,Destination,Distance
 Mumbai,Delhi,1400
 Delhi,Bangalore,2100
 Chennai,Kolkata,1500
 Directory Structure
-bash
-Copy
-Edit
+
 /Route-shortest-path
 │
 ├── main.py               # Main script for pathfinding
 ├── cities.csv            # Sample input file with source, destination, and distance
 ├── README.md             # Project documentation
 └── requirements.txt      # Python dependencies
-Contributing
-Feel free to fork this repository and create pull requests for new features or bug fixes. Contributions are welcome!
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-SpeechRecognition library for voice-to-text functionality
-Dijkstra's algorithm for finding the shortest path
-vbnet
-Copy
-Edit
+
+
